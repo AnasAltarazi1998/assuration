@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetConversionRate>
+         <!--Optional:-->
+         <tem:CurrencyFrom>USD</tem:CurrencyFrom>
+         <!--Optional:-->
+         <tem:CurrencyTo>EUR</tem:CurrencyTo>
+         <tem:RateDate>2021-01-29T00:00:00</tem:RateDate>
+      </tem:GetConversionRate>
+   </soapenv:Body>
+</soapenv:Envelope>
